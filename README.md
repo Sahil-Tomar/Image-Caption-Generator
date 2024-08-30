@@ -1,5 +1,5 @@
 # Image Caption Generator using Deep Learning
--  Developed an image captioning model combining **Convolutional Neural Network** for feature extraction (with a pre-trained
-**DenseNet201** model) and **Long short-term memory (LSTM) Network** for sequential text generation using Flikr8K dataset.
--  Enhanced the original image captioning model by integrating image embeddings, improving performance over the baseline
-architecture from the research paper **Show and Tell: A Neural Image Caption Generator(2014)** by Vinyals et al
+-  Integrated Convolutional Neural Networks (CNNs) with Long Short-Term Memory (LSTM) networks to generate
+natural language descriptions for over 8,000 images, utilizing more than 40,000 captions from the Flickr8K image dataset
+- Utilized the VGG16 model (pretrained on 1000000+ images from the ImageNet dataset) to extract high-level image features
+- Achieved a Bilingual Evaluation Understudy-unigrams (BLEU-1) score of 0.526 and BLEU-2 (bigrams) score of 0.296
